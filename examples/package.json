@@ -1,0 +1,22 @@
+{
+  "name": "ai-url-reputation-oracle-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejemplos de integracion (casos de uso) del contrato URLReputationOracle de GenLayer.",
+  "type": "module",
+  "scripts": {
+    "validate-collections": "tsx 03-nft-marketplace-collection-links/validateCollectionLinks.ts",
+    "presale-guard": "tsx 05-launchpad-presale-guard/presaleGuard.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "genlayer-js": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "react": "^18.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
